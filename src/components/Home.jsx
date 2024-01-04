@@ -8,7 +8,7 @@ import { useScroll, motion} from "framer-motion";
 import CircleIcon from '@mui/icons-material/Circle';
 import Navbar from './Navbar';
 import Projects from './Projects';
-// import Experiences from './Experiences';
+import Experiences from './Experiences';
 // import Footer from './Footer';
 
 function Home() {
@@ -81,8 +81,8 @@ function Home() {
             </div>
 
             <Projects />
-            {/* <Experiences />
-            <Footer /> */}
+            <Experiences />
+            {/* <Footer /> */}
         </>
     )
 }
