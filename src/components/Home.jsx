@@ -6,7 +6,7 @@ import { Typography } from '@mui/material';
 // import ListItemText from '@mui/material/ListItemText';
 import { useScroll, motion} from "framer-motion";
 import CircleIcon from '@mui/icons-material/Circle';
-// import Navbar from './Navbar';
+import Navbar from './Navbar';
 import Projects from './Projects';
 // import Experiences from './Experiences';
 // import Footer from './Footer';
@@ -23,7 +23,7 @@ function Home() {
             <div className='container-fluid'>
 
                 <div className='coverGradient' >
-                    {/* <Navbar /> */}
+                    <Navbar />
                     <Typography variant='h3' className='coverHeading' 
                     style={{
                         position: 'relative', 
