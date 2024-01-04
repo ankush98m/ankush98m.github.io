@@ -9,7 +9,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 import Navbar from './Navbar';
 import Projects from './Projects';
 import Experiences from './Experiences';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 function Home() {
     const { scrollYProgress } = useScroll();
@@ -82,7 +82,7 @@ function Home() {
 
             <Projects />
             <Experiences />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
