@@ -23,13 +23,16 @@ function Footer() {
         <div style={{backgroundColor: 'rgba(16,21,27)' }}>
         <div className='socIcons'>
             <a href="https://github.com/ankush98m" target="_blank"><GitHubIcon sx={{
-                        fontSize: '2.5em !important'
+                        fontSize: '2.5em !important',
+                        color: '#fcca46'
                     }}/></a>
             <a href="https://www.instagram.com/ankush98m?igsh=bGg2eDV4a25jZWY0" target="_blank"><InstagramIcon sx={{
-                        fontSize: '2.5em !important'
+                        fontSize: '2.5em !important',
+                        color: '#FF005D'
                     }}/></a>
             <a href="https://www.linkedin.com/in/ankush-maheshwari98/" target="_blank"><LinkedInIcon sx={{
-                        fontSize: '2.5em !important'
+                        fontSize: '2.5em !important',
+                        color: '#0A66C2'
                     }}/></a>
         </div>
             <div className='footerDiv'>
@@ -54,7 +57,8 @@ function Footer() {
                         }}>My Resume</span></Typography>
                     <Button><a id="resumeLink" href={resumeURL} target="_blank">
                         <DownloadIcon sx={{
-                        fontSize: '3.5em'
+                        fontSize: '3.5em',
+                        color: '#1976d2'
                     }}/></a></Button>
                 </div>
             </div>

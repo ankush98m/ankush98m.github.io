@@ -210,7 +210,7 @@ h4.MuiTypography-root {
     background-position: 50% 20%;
     background-repeat: no-repeat;
     object-fit: cover;
-    height: 900px;
+    height: 950px;
   }
 
   .aboutDiv {
@@ -219,7 +219,7 @@ h4.MuiTypography-root {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 110px !important;
+    top: 100px !important;
     padding: 3%;
     border-radius: 10px;
   }
@@ -461,7 +461,7 @@ h4.MuiTypography-root {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 17%;
+    top: 10%;
     padding: 3%;
     border-radius: 10px;
   }
@@ -480,6 +480,11 @@ h4.MuiTypography-root {
 
   .aboutRight{
     padding-bottom: 20px;
+  }
+
+  .skill-img{
+    height: 38px;
+    width: 38px;
   }
   
 }
@@ -704,7 +709,7 @@ h4.MuiTypography-root {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 17%;
+    top: 15%;
     padding: 3%;
     border-radius: 10px;
   }
@@ -723,6 +728,11 @@ h4.MuiTypography-root {
 
   .aboutRight{
     padding-bottom: 20px;
+  }
+
+  .skill-img{
+    height: 50px;
+    width: 50px;
   }
 }
 
@@ -977,6 +987,11 @@ h4.MuiTypography-root {
   #resumeLink:after {
     color: #1976d2;
   }
+
+  .skill-img{
+    height: 55px;
+    width: 55px;
+  }
 }
 
 @media screen and (min-width: 1801px){
@@ -1187,16 +1202,17 @@ h4.MuiTypography-root {
   }
 
   .aboutLeft {
-    padding: 10px;
+    padding: 20px;
+    width: 45vw;
     img{
-      max-width: 200px;
+      max-width: 220px;
       height: auto;
     }
   }
 
   .aboutRight {
     border-left: solid 2.5px snow;
-    padding: 10px;
+    padding: 30px;
   }
 
   .aboutEmptyDiv {
@@ -1222,5 +1238,10 @@ h4.MuiTypography-root {
 
   #resumeLink:after {
     color: #1976d2;
+  }
+
+  .skill-img{
+    height: 70px;
+    width: 70px;
   }
 }
