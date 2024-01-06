@@ -190,7 +190,7 @@ h4.MuiTypography-root {
   transform: translateZ(-30%);
 }
 
-@media screen and (min-width: 410px){
+@media screen and (min-width: 401px){
   .aboutGradient {
     background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%), url(./assets/images/animatedPhoto.jpg) !important;
     color: white;
@@ -202,7 +202,7 @@ h4.MuiTypography-root {
   }
 }
 
-@media screen and (max-width: 409px){
+@media screen and (max-width: 400px){
   .aboutGradient {
     background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%), url(./assets/images/animatedPhoto.jpg) !important;
     color: white;
@@ -210,7 +210,7 @@ h4.MuiTypography-root {
     background-position: 50% 20%;
     background-repeat: no-repeat;
     object-fit: cover;
-    height: 950px;
+    height: 850px;
   }
 
   .aboutDiv {
@@ -229,7 +229,7 @@ h4.MuiTypography-root {
     margin-left: auto;
     margin-right: auto;
     span:nth-child(1){
-      font-size: 62px !important;
+      font-size: 3em !important;
       }
       span:nth-child(2){
         font-size: 15px ;
@@ -246,17 +246,6 @@ h4.MuiTypography-root {
     span:nth-child(2){
       font-size: 15px ;
       }
-  }
-}
-
-.socIcons {
-  padding-top: 10%;
-  display: flex;
-  justify-content: center;
-
-  a {
-    padding: 2%;
-    color: -webkit-link;
   }
 }
 
@@ -427,34 +416,6 @@ h4.MuiTypography-root {
     max-width: 95vw;
   }
 
-  .collaborateDiv {
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-    span:nth-child(1){
-      font-size: 72px ;
-      }
-      span:nth-child(2){
-        font-size: 15px ;
-        }
-  }
-
-  .resumeDiv {
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-    span:nth-child(1){
-    font-size: 72px ;
-    }
-    span:nth-child(2){
-      font-size: 15px ;
-      }
-  }
-
-  .footerDiv{
-    padding-bottom: 10%;
-  }
-
   .aboutDiv {
     background-color: rgba(27, 27, 27, 0.7);
     width: 90vw;
@@ -473,8 +434,8 @@ h4.MuiTypography-root {
     padding-bottom: 20px;
     border-bottom: solid 2px #c3c0c0;
     img{
-      max-width: 42.5vw;
-      height: auto;
+      max-width: 42.5vw !important;
+      height: auto !important;
     }
   }
 
@@ -482,11 +443,110 @@ h4.MuiTypography-root {
     padding-bottom: 20px;
   }
 
+  .socIcons {
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+  
+    a {
+      padding: 5%;
+      color: -webkit-link;
+    }
+  }
+
+  .collaborateDiv {
+    margin-left: auto;
+    margin-right: auto;
+    span:nth-child(1){
+      font-size: 72px ;
+      
+      }
+      span:nth-child(2){
+        white-space: nowrap;
+        font-size: 15px ;
+        }
+  }
+
+  .resumeDiv {
+    /* width: 80vw; */
+    margin-left: auto;
+    margin-right: auto;
+    span:nth-child(1){
+    font-size: 72px ;
+    }
+    span:nth-child(2){
+      white-space: nowrap;
+      font-size: 15px ;
+      }
+  }
+
+  .footerDiv{
+    padding-bottom: 10%;
+  }
+
   .skill-img{
     height: 38px;
     width: 38px;
   }
   
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+  .aboutDiv {
+    background-color: rgba(27, 27, 27, 0.7);
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10%;
+    padding: 3%;
+    border-radius: 10px;
+  }
+
+  .aboutLeft{
+    max-width: 85vw;
+    display: flex;
+    margin: 10% 2%;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #c3c0c0;
+    img{
+      max-width: 42.5vw !important;
+      height: auto !important;
+    }
+  }
+
+  .aboutRight{
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+  .aboutDiv {
+    background-color: rgba(27, 27, 27, 0.7);
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15%;
+    padding: 3%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutLeft {
+    padding: 10px;
+    img{
+      max-width: 200px !important;
+      height: auto !important;
+    }
+  }
+
+
+  .aboutRight {
+    border-left: solid 2.5px snow;
+    padding: 10px;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1199px){
@@ -677,6 +737,17 @@ h4.MuiTypography-root {
     margin-right: auto !important;
   }
 
+  .socIcons {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+  
+    a {
+      padding: 5%;
+      color: -webkit-link;
+    }
+  }
+
   .collaborateDiv {
     margin-left: auto;
     margin-right: auto;
@@ -701,33 +772,6 @@ h4.MuiTypography-root {
 
   .footerDiv{
     padding-bottom: 10%;
-  }
-
-  .aboutDiv {
-    background-color: rgba(27, 27, 27, 0.7);
-    width: 75vw;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 15%;
-    padding: 3%;
-    border-radius: 10px;
-  }
-
-  .aboutLeft{
-    display: flex;
-    margin: 5% auto;
-    justify-content: center;
-    padding-bottom: 20px;
-    border-bottom: solid 2px #c3c0c0;
-    img{
-      max-width: 35.5vw;
-      height: 300px;
-    }
-  }
-
-  .aboutRight{
-    padding-bottom: 20px;
   }
 
   .skill-img{
@@ -957,11 +1001,21 @@ h4.MuiTypography-root {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(./assets/images/expBG3.jpg);
   }
 
-
   .footerDiv {
     display: flex;
     width: 100%;
     padding-bottom: 5%;
+  }
+
+  .socIcons {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+  
+    a {
+      padding: 4%;
+      color: -webkit-link;
+    }
   }
 
   .collaborateDiv {
@@ -1224,6 +1278,17 @@ h4.MuiTypography-root {
     display: flex;
     width: 100%;
     padding-bottom: 5%;
+  }
+
+  .socIcons {
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+  
+    a {
+      padding: 3%;
+      color: -webkit-link;
+    }
   }
 
   .collaborateDiv ,.resumeDiv {

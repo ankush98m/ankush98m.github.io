@@ -5,7 +5,8 @@ import Grid from '@mui/material/Grid';
 // import Collage from "../assets/images/collage1.jpg"
 import photo1 from "../assets/images/collagePhoto1.jpeg"
 import photo2 from "../assets/images/collagePhoto2.jpeg"
-import photo3 from "../assets/images/collagePhoto4.jpeg"
+import photo3 from "../assets/images/aboutPhoto.png"
+// import photo3 from "../assets/images/collagePhoto4.jpeg"
 import Cplusplus from "../assets/images/c++_icon.png";
 import js from "../assets/images/javascript.svg";
 import react from "../assets/images/react.png";
@@ -24,8 +25,8 @@ function About() {
                 <Navbar />
                 <div className='aboutDiv'>
                     <div className='aboutLeft'>
-                        <img src={photo1} alt="Ankush Maheshwari" />
-                        <img src={photo2} alt="Ankush Maheshwari" />
+                        {/* <img src={photo1} alt="Ankush Maheshwari" />
+                        <img src={photo2} alt="Ankush Maheshwari" /> */}
                         {/* <img src={photo3} height="auto" width="200px" /> */}
                     </div>
                     <div className='aboutRight'>

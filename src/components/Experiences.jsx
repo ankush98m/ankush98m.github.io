@@ -22,28 +22,28 @@ function Experiences() {
             company: 'Infosys',
             image: `${Infosys}`,
             period: 'May 2022 - September 2023',
-            desc: 'Developed a responsive and dynamic digital library housing over 100 e-books and journals. This involved collaborative design and implementation of PostgreSQL database schemas. Leading a team of two, we continuously enhanced the application, introducing new features and reducing load time.',
+            desc: 'Developed a responsive and dynamic digital library housing over 100 e-books and journals using Reactjs, ReactMUI and PostgreSQL.',
         },
         {
             position: 'Assistant System Engineer',
             company: 'TCS',
             image: `${Tcs}`,
             period: 'January 2021 - April 2022',
-            desc: 'Transformed mainframe software into a web app for a major American grocery company. Embracing test-driven development, I maximized modularity and extensively tested the application using React testing library, fortifying its reliability and performance.',
+            desc: 'Transformed mainframe software into a web app for a major American grocery company. Embracing test-driven development using React testing library.',
         },
         {
             position: 'Engineering Intern',
             company: 'Opentext',
             image: `${Opentext}`,
             period: 'January 2020 - June 2020',
-            desc: 'Developed comprehensive Java test scripts using Selenium to ensure robust functionality, performance, and security in web applications. Using Jira, I meticulously tracked and resolved issues, significantly enhancing software quality and reliability.',
+            desc: 'Developed comprehensive Java test scripts using Selenium to ensure robust functionality, performance, and security in web applications.',
         },
         {
             position: 'Web Developer Intern',
             company: 'Quaff Media',
             image: `${QuaffMedia}`,
             period: 'May 2018 - June 2018',
-            desc: 'Utilizing advanced JavaScript techniques, I introduced dynamic features such as intuitive tile selection, enhancing the overall user experience and engagement on the site and leading to a remarkable boost in the website\'s revenue generation.',
+            desc: 'Introduced dynamic features such as intuitive tile selection, enhancing the overall user experience and engagement.',
         },
     ])
 

@@ -22,6 +22,7 @@ function Footer() {
     return (
         <div style={{backgroundColor: 'rgba(16,21,27)' }}>
         <div className='socIcons'>
+            {/* <Typography variant='h4'>Follow Me on</Typography> */}
             <a href="https://github.com/ankush98m" target="_blank"><GitHubIcon sx={{
                         fontSize: '2.5em !important',
                         color: '#fcca46'

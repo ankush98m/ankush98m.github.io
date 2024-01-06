@@ -138,7 +138,7 @@ function Projects() {
                                                 <Typography variant='body1' className='projectDesc-left'>{p.descrption}</Typography>
                                                 <div className='leftProjBtns'>
                                                     <Button variant="contained" className="projBtn-left" href={p.link} target="_blank">
-                                                        Open
+                                                        Open Project
                                                     </Button>
                                                     <Button variant="contained" className="gitBtn-left" href={p.github} target="_blank">
                                                         Github
@@ -157,7 +157,7 @@ function Projects() {
                                                     <Typography variant='body1' className='projectDesc-right'>{p.descrption}</Typography>
                                                     <div className='rightProjBtns'>
                                                         <Button variant="contained" className="projBtn-right" href={p.link} target="_blank">
-                                                            Open
+                                                            Open Project
                                                         </Button>
                                                         <Button variant="contained" className="gitBtn-right" href={p.github} target="_blank">
                                                             Github
@@ -187,7 +187,7 @@ function Projects() {
                                                     <Typography variant='body1' className='projectDesc-right'>{p.descrption}</Typography>
                                                     <div className='rightProjBtns'>
                                                         <Button variant="contained" className="projBtn-right" href={p.link} target="_blank">
-                                                            Open
+                                                            Open Project
                                                         </Button>
                                                         <Button variant="contained" className="gitBtn-right" href={p.github} target="_blank">
                                                             Github
