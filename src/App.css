@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .App {
@@ -241,7 +241,7 @@ h4.MuiTypography-root {
     margin-left: auto;
     margin-right: auto;
     span:nth-child(1){
-    font-size: 62px !important;
+    font-size: 3em !important;
     }
     span:nth-child(2){
       font-size: 15px ;
@@ -459,11 +459,13 @@ h4.MuiTypography-root {
     margin-right: auto;
     span:nth-child(1){
       font-size: 72px ;
-      
+      }
+      span:nth-child(1)::after{
+        content: '\A'; /* Unicode character for a new line */
+      white-space: pre;
       }
       span:nth-child(2){
         white-space: nowrap;
-        font-size: 15px ;
         }
   }
 
@@ -474,9 +476,14 @@ h4.MuiTypography-root {
     span:nth-child(1){
     font-size: 72px ;
     }
+
+    span:nth-child(1)::after{
+      content: '\A'; /* Unicode character for a new line */
+    white-space: pre;
+    }
     span:nth-child(2){
-      white-space: nowrap;
-      font-size: 15px ;
+      content: '\A'; /* Unicode character for a new line */
+  white-space: pre;
       }
   }
 

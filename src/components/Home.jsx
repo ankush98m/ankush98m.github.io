@@ -13,8 +13,9 @@ import Footer from './Footer';
 
 function Home() {
     const { scrollYProgress } = useScroll();
+
     return (
-        <>
+        <div style={{overflowX: 'hidden'}}>
             <motion.div
                 className="progress-bar"
                 style={{ scaleX: scrollYProgress }}
@@ -83,7 +84,7 @@ function Home() {
             <Projects />
             <Experiences />
             <Footer />
-        </>
+        </div>
     )
 }
 

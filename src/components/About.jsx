@@ -37,7 +37,7 @@ function About() {
                         <Typography sx={{
                             color: "#c3c0c0",
                             padding: '3% 0%'
-                        }}>Here are some technical skills I am proficient</Typography>
+                        }}>Here are some technical skills I am proficient at</Typography>
                         <Grid container rowSpacing={3} columnSpacing={{ xs: 1, sm: 2, md: 3}}>
                             <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
                                 <img src={Cplusplus} alt="C++" className='skill-img'/>
