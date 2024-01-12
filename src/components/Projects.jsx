@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Divider, Container, Typography, Button } from '@mui/material';
-import spendCubes from "../assets/images/spendCubes.PNG"
-import CodonBiotech from "../assets/images/codonBiotech.PNG"
-import ARApp from "../assets/images/ARApp.png"
+import spendCubes from "../assets/images/spendCubes.PNG";
+import CodonBiotech from "../assets/images/codonBiotech.PNG";
+import ARApp from "../assets/images/ARApp.png";
+import harmonyHub from "../assets/images/harmonyHub.PNG";
 
 function Projects() {
     // const [scrollY, setScrollY] = useState(0);
@@ -10,7 +11,7 @@ function Projects() {
         {
             title: 'Harmony Hub',
             descrption: ' HarmonyHub redefines the way we experience and share music by introducing a novel approach to collaborative playlist curation. Unlike traditional music platforms, HarmonyHub focuses on real-time interaction, allowing users to collaboratively build and curate playlists together, transforming the act of music discovery into a social, dynamic, and engaging experience.',
-            image: spendCubes,
+            image: harmonyHub,
             technology: [],
             github: 'https://github.com/ankush98m/harmonyHub',
             link: 'https://youtu.be/XFxfRkLyJnM'
