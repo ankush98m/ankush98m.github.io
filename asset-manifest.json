@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4f318880.css",
-    "main.js": "/static/js/main.bb5d166b.js",
+    "main.js": "/static/js/main.d47caa97.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/codonBiotech.PNG": "/static/media/codonBiotech.125751f0b6626a7da405.PNG",
     "static/media/expBG3.jpg": "/static/media/expBG3.0172d1898fa4de6dc10c.jpg",
@@ -26,11 +26,11 @@
     "index.html": "/index.html",
     "static/media/javascript.svg": "/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.4f318880.css.map": "/static/css/main.4f318880.css.map",
-    "main.bb5d166b.js.map": "/static/js/main.bb5d166b.js.map",
+    "main.d47caa97.js.map": "/static/js/main.d47caa97.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f318880.css",
-    "static/js/main.bb5d166b.js"
+    "static/js/main.d47caa97.js"
   ]
 }
