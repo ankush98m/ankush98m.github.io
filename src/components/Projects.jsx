@@ -12,7 +12,7 @@ function Projects() {
             descrption: ' HarmonyHub redefines the way we experience and share music by introducing a novel approach to collaborative playlist curation. Unlike traditional music platforms, HarmonyHub focuses on real-time interaction, allowing users to collaboratively build and curate playlists together, transforming the act of music discovery into a social, dynamic, and engaging experience.',
             image: spendCubes,
             technology: [],
-            github: 'https://github.com/ankush98m/Harmony-Hub.git',
+            github: 'https://github.com/ankush98m/harmonyHub',
             link: 'https://youtu.be/XFxfRkLyJnM'
         },
         {
