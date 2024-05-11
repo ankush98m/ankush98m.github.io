@@ -7,7 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Footer() {
-    const resumeURL = "https://drive.google.com/file/d/1JOnX645PCKYhu1khhuT7SmImwWi44wkQ/view?usp=sharing";
+    const resumeURL = "https://drive.google.com/file/d/1FS8wSzh2mtVqo3Hqeb7W6FbmRKKJFaVy/view?usp=drive_link";
 
     const sendEmail = () => {
         const emailAddress = 'ankush97m@Gmail.com'; // Replace with the recipient's email address

@@ -4,10 +4,28 @@ import spendCubes from "../assets/images/spendCubes.PNG";
 import CodonBiotech from "../assets/images/codonBiotech.PNG";
 import ARApp from "../assets/images/ARApp.png";
 import harmonyHub from "../assets/images/harmonyHub.PNG";
+import Chess from "../assets/images/checkmateChallenge.jpg"
+import IPL from "../assets/images/IPLBayesian.PNG"
 
 function Projects() {
     // const [scrollY, setScrollY] = useState(0);
     const [project, setProject] = useState([
+        {
+            title: 'CheckMate Challenge',
+            descrption: "Checkmate Challenge is a variation of the traditional chess. The Checkmate Challenge is an Android app offering bite-sized chess puzzles. Players must checkmate the king in a limited number of moves on compact boards with varying piece arrangements. With each level presenting a new challenge, it's a stimulating and strategic game for chess enthusiasts on the go.",
+            image: Chess,
+            technology: [],
+            github: 'https://github.com/maheshwari-ank/CheckmateChallenge',
+            link: ''
+        },
+        {
+            title: 'IPL Data Analysis',
+            descrption: 'Analyzed IPL cricket data using Bayesian simulation and Markov Chain Monte Carlo to identify factors affecting team winning probabilities and to evaluate bowler performance in IPL matches, recommending optimal bowlers for taking wickets based on historical data and match situations',
+            image: IPL,
+            technology: [],
+            github: 'https://github.com/ankush98m/IPL-data-analysis',
+            link: ''
+        },
         {
             title: 'Harmony Hub',
             descrption: ' HarmonyHub redefines the way we experience and share music by introducing a novel approach to collaborative playlist curation. Unlike traditional music platforms, HarmonyHub focuses on real-time interaction, allowing users to collaboratively build and curate playlists together, transforming the act of music discovery into a social, dynamic, and engaging experience.',
@@ -32,14 +50,14 @@ function Projects() {
             github: 'https://github.com/ankush98m/Spend_Cubes',
             link: 'https://codonbiotech.vercel.app/'
         },
-        {
-            title: 'AR Distance Measurer App',
-            descrption: 'Introducing a cutting-edge mobile application crafted using Unity and Vuforia SDK, designed to effortlessly calculate the distance between any two points. Harnessing the power of smartphone technology, this app simplifies distance measurement with precision and ease',
-            image: ARApp,
-            technology: [],
-            github: '',
-            link: ''
-        },
+        // {
+        //     title: 'AR Distance Measurer App',
+        //     descrption: 'Introducing a cutting-edge mobile application crafted using Unity and Vuforia SDK, designed to effortlessly calculate the distance between any two points. Harnessing the power of smartphone technology, this app simplifies distance measurement with precision and ease',
+        //     image: ARApp,
+        //     technology: [],
+        //     github: '',
+        //     link: ''
+        // },
 
     ])
     const projRef = useRef();
@@ -133,14 +151,14 @@ function Projects() {
                                                 <Typography variant='h4' sx={{
                                                     color: 'white'
                                                 }}>{p.title}</Typography>
-                                                <img src={p.image} alt={p.title} className='projImg-left' />
+                                                <img src={p.image} alt={p.title} className='projImg-left' sx={{objectFit:"contain"}}/>
                                             </div>
                                             <div style={{ flexDirection: 'column' }}>
                                                 <Typography variant='body1' className='projectDesc-left'>{p.descrption}</Typography>
                                                 <div className='leftProjBtns'>
-                                                    <Button variant="contained" className="projBtn-left" href={p.link} target="_blank">
+                                                    {/* <Button variant="contained" className="projBtn-left" href={p.link} target="_blank">
                                                         Open Project
-                                                    </Button>
+                                                    </Button> */}
                                                     <Button variant="contained" className="gitBtn-left" href={p.github} target="_blank">
                                                         Github
                                                     </Button>
@@ -157,9 +175,9 @@ function Projects() {
 
                                                     <Typography variant='body1' className='projectDesc-right'>{p.descrption}</Typography>
                                                     <div className='rightProjBtns'>
-                                                        <Button variant="contained" className="projBtn-right" href={p.link} target="_blank">
-                                                            Open Project
-                                                        </Button>
+                                                        {/* <Button variant="contained" className="projBtn-right" href={p.link} target="_blank"> */}
+                                                            {/* Open Project */}
+                                                        {/* </Button> */}
                                                         <Button variant="contained" className="gitBtn-right" href={p.github} target="_blank">
                                                             Github
                                                         </Button>
@@ -181,15 +199,15 @@ function Projects() {
                                                 <Typography variant='h4' sx={{
                                                         color: 'white'
                                                     }}>{p.title}</Typography>
-                                                    <img src={p.image} alt={p.title} className='projImg-right' />
+                                                    <img src={p.image} alt={p.title} className='projImg-right' sx={{objectFit:"contain"}}/>
                                                 </div>
                                                 <div style={{ flexDirection: 'column' }}>
                                                     
                                                     <Typography variant='body1' className='projectDesc-right'>{p.descrption}</Typography>
                                                     <div className='rightProjBtns'>
-                                                        <Button variant="contained" className="projBtn-right" href={p.link} target="_blank">
+                                                        {/* <Button variant="contained" className="projBtn-right" href={p.link} target="_blank">
                                                             Open Project
-                                                        </Button>
+                                                        </Button> */}
                                                         <Button variant="contained" className="gitBtn-right" href={p.github} target="_blank">
                                                             Github
                                                         </Button>
