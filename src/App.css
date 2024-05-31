@@ -338,6 +338,20 @@ h4.MuiTypography-root {
     margin: 7% 3.5% !important;
   }
 
+  .skill-stack-left{
+    /* margin-top: 1em; */
+    margin-left: 3.5%;
+    text-align: left;
+    color: snow;
+  }
+
+  .skill-stack-right{
+    /* margin-top: 1em; */
+    margin-left: 3.5%;
+    text-align: left;
+    color: snow;
+  }
+
   .projImg-left {
     margin-top: 2em;
     border-radius: 5%;
@@ -653,7 +667,22 @@ h4.MuiTypography-root {
     margin-right: 2em !important;
     text-align: left;
     color: #c3c0c0;
+  }
 
+  .skill-stack-left{
+    margin-top: 1em;
+    margin-left: 3em;
+    max-width: 40vw;
+    text-align: left;
+    color: snow;
+  }
+
+  .skill-stack-right{
+    margin-top: 1em;
+    margin-right: 2em;
+    max-width: 40vw;
+    text-align: left;
+    color: snow;
   }
 
   .projImg-left {
@@ -894,6 +923,21 @@ h4.MuiTypography-root {
     text-align: left;
     color: #c3c0c0;
 
+  }
+
+  .skill-stack-left{
+    margin-top: 1em;
+    margin-left: 3em;
+    max-width: 70%;
+    text-align: left;
+    color: snow;
+  }
+
+  .skill-stack-right{
+    margin-top: 1em;
+    margin-left: 11em;
+    text-align: left;
+    color: snow;
   }
 
   .projImg-left {
@@ -1165,6 +1209,22 @@ h4.MuiTypography-root {
     text-align: left;
     color: #c3c0c0;
 
+  }
+
+  .skill-stack-left{
+    margin-top: 1em;
+    margin-left: 3em;
+    max-width: 85%;
+    text-align: left;
+    color: snow;
+  }
+
+  .skill-stack-right{
+    margin-top: 1em;
+    margin-left: 12em;
+    margin-right: 3em;
+    text-align: left;
+    color: snow;
   }
 
   .projImg-left {
