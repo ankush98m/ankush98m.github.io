@@ -190,6 +190,14 @@ h4.MuiTypography-root {
   transform: translateZ(-30%);
 }
 
+.skill-stack-left{
+  display: block !important;
+}
+
+.skill-stack-right{
+  display: block !important;
+}
+
 @media screen and (min-width: 401px){
   .aboutGradient {
     background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%), url(./assets/images/animatedPhoto.jpg) !important;
@@ -339,17 +347,28 @@ h4.MuiTypography-root {
   }
 
   .skill-stack-left{
-    /* margin-top: 1em; */
+    margin-top: -1em;
+    display: block;
+    margin-left: 3.5%;
+    text-align: left;
+    color: snow;
+    
+  }
+
+  .skill-stack-right{
+    margin-top: -1em;
+    display: block;
     margin-left: 3.5%;
     text-align: left;
     color: snow;
   }
 
-  .skill-stack-right{
-    /* margin-top: 1em; */
-    margin-left: 3.5%;
-    text-align: left;
-    color: snow;
+  .skill-chip-left{
+      margin-top: 1em !important;
+  }
+
+  .skill-chip-right{
+    margin-top: 1em !important;
   }
 
   .projImg-left {

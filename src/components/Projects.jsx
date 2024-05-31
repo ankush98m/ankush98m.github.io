@@ -161,7 +161,8 @@ function Projects() {
                                                 {p.technology.map((t,i)=>{
                                                     return(
                                                         
-                                                            <Chip label={t} color= "primary" sx={{backgroundColor:"#8884fc"}} />
+                                                            <Chip label={t} color= "primary" className="skill-chip-left" 
+                                                            sx={{backgroundColor:"#8884fc"}} />
                                                         
                                                     )
                                                 })}
@@ -228,7 +229,9 @@ function Projects() {
                                                     <Stack direction="row" spacing={1} className='skill-stack-right'>
                                                             {p.technology.map((t,i)=>{
                                                                 return(
-                                                                    <Chip label={t} color= "primary" sx={{backgroundColor:"#8884fc"}}/>
+                                                                    <Chip label={t} color= "primary" className="skill-chip-right" sx={{
+                                                                        backgroundColor:"#8884fc",
+                                                                    }}/>
                                                                 )
                                                             })}
                                                         </Stack>
