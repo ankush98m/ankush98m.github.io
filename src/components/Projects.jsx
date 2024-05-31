@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Divider, Container, Typography, Button, Stack, Chip } from '@mui/material';
+import { Divider, Container, Typography, Button, Stack, Chip, Box } from '@mui/material';
 import spendCubes from "../assets/images/spendCubes.PNG";
 import CodonBiotech from "../assets/images/codonBiotech.PNG";
 import ARApp from "../assets/images/ARApp.png";
-import harmonyHub from "../assets/images/harmonyHub.PNG";
+import harmonyHub from "../assets/images/harmonyHub3.PNG";
 import Chess from "../assets/images/checkmateChallenge.jpg"
 import IPL from "../assets/images/IPLBayesian.PNG"
 
@@ -151,7 +151,13 @@ function Projects() {
                                                 <Typography variant='h4' sx={{
                                                     color: 'white'
                                                 }}>{p.title}</Typography>
-                                                <img src={p.image} alt={p.title} className='projImg-left' sx={{objectFit:"contain"}}/>
+                                                {/* <Box sx={{ width: '100%', height: 'auto' }}>
+                                                    <img src={p.image} alt={p.title} className='projImg-left' sx={{objectFit:'contain'}}/> 
+                                                </Box> */}
+                                                <Box sx={{ width: '100%', height: 'auto' }}>
+                                                    {index==0 ? (<img src={p.image} alt={p.title} className='projImg-left' style={{ objectFit: 'contain' }} />) 
+                                                    : (<img src={p.image} alt={p.title} className='projImg-left' />)}
+                                                </Box>
                                             </div>
                                             <div style={{ flexDirection: 'column' }}>
                                                 <Typography variant='body1' className='projectDesc-left'>
