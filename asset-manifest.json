@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c881caa0.css",
-    "main.js": "/static/js/main.47b6d827.js",
+    "main.js": "/static/js/main.70167e88.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/codonBiotech.PNG": "/static/media/codonBiotech.125751f0b6626a7da405.PNG",
     "static/media/expBG3.jpg": "/static/media/expBG3.0172d1898fa4de6dc10c.jpg",
@@ -15,8 +15,8 @@
     "static/media/collagePhoto2.jpeg": "/static/media/collagePhoto2.ae5ce7a1307f9eddc69e.jpeg",
     "static/media/aboutPhoto.png": "/static/media/aboutPhoto.fdf3226bdd44db636fdb.png",
     "static/media/infosys.jpg": "/static/media/infosys.574ffd27c0fd18453b1e.jpg",
+    "static/media/harmonyHub3.PNG": "/static/media/harmonyHub3.1e40fcf49a9d47aa02b7.PNG",
     "static/media/checkmateChallenge.jpg": "/static/media/checkmateChallenge.3288870fee67f10b59a6.jpg",
-    "static/media/harmonyHub.PNG": "/static/media/harmonyHub.fe3df1478ee83b775888.PNG",
     "static/media/expBG.jpeg": "/static/media/expBG.ebb4fcefe1a802c4d808.jpeg",
     "static/media/c++_icon.png": "/static/media/c++_icon.a03992cb2a84d27d11dc.png",
     "static/media/node.png": "/static/media/node.007e99f68b718e476aba.png",
@@ -29,11 +29,11 @@
     "index.html": "/index.html",
     "static/media/javascript.svg": "/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.c881caa0.css.map": "/static/css/main.c881caa0.css.map",
-    "main.47b6d827.js.map": "/static/js/main.47b6d827.js.map",
+    "main.70167e88.js.map": "/static/js/main.70167e88.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c881caa0.css",
-    "static/js/main.47b6d827.js"
+    "static/js/main.70167e88.js"
   ]
 }
