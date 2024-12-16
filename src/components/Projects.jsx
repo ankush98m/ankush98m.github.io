@@ -6,6 +6,7 @@ import ARApp from "../assets/images/ARApp.png";
 import harmonyHub from "../assets/images/harmonyHub3.PNG";
 import Chess from "../assets/images/checkmateChallenge.jpg"
 import IPL from "../assets/images/IPLBayesian.PNG"
+import TerraNode from "../assets/images/terranode.png"
 
 function Projects() {
     // const [scrollY, setScrollY] = useState(0);
@@ -15,6 +16,14 @@ function Projects() {
             descrption: "Checkmate Challenge is a variation of the traditional chess. The Checkmate Challenge is an Android app offering bite-sized chess puzzles. Players must checkmate the king in a limited number of moves on compact boards with varying piece arrangements. With each level presenting a new challenge, it's a stimulating and strategic game for chess enthusiasts on the go.",
             image: Chess,
             technology: ['Java', 'OOPS Concepts', 'MiniMax Algorithm', 'Android Studio'],
+            github: 'https://github.com/ankush98m/CheckmateChallenge',
+            link: ''
+        },
+        {
+            title: 'TerraNode',
+            descrption: "A cloud-based web application hosted on AWS, developed using Node.js and managed with Terraform. Key features include hosting on EC2 instances with auto-scaling and load balancing, PostgreSQL on RDS for database management, and S3 for storing user profile images. CloudWatch monitors API logs, triggers alarms for auto-scaling, and Lambda functions handle email verification via pub/sub on account creation. The application ensures security with SSL certificates, KMS-managed encryption, and utilizes CI/CD pipelines to automate testing and deployment, including updating EC2 instances with new AMI images.",
+            image: TerraNode,
+            technology: ['JavaScript', 'Node.js', 'TerraForm', 'AWS', 'Shell'],
             github: 'https://github.com/maheshwari-ank/CheckmateChallenge',
             link: ''
         },
