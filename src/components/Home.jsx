@@ -6,6 +6,7 @@ import { Typography } from '@mui/material';
 // import ListItemText from '@mui/material/ListItemText';
 import { useScroll, motion} from "framer-motion";
 import CircleIcon from '@mui/icons-material/Circle';
+import About from "./About"
 import Navbar from './Navbar';
 import Projects from './Projects';
 import Experiences from './Experiences';
@@ -80,7 +81,7 @@ function Home() {
 
                 </div>
             </div>
-
+            <About />
             <Projects />
             <Experiences />
             <Footer />

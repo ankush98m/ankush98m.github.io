@@ -158,6 +158,26 @@ h4.MuiTypography-root {
   border-radius: 50%;
 }
 
+/* .aboutHeading{
+  padding: 3%;
+  color: white;
+  opacity: 1;
+  align-items: center;
+} */
+
+.aboutHeading{
+  background-color: #f1f1f1;
+  background-image: linear-gradient(to right, #ffffff, #fffafa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+  transform: translateZ(-30%);
+  transform: scale(40%);
+  align-items: center;
+  padding: 3%;
+}
+
 .projHeading {
   background-color: #f1f1f1;
   background-image: linear-gradient(to right, rgba(215, 188, 232), rgba(136, 132, 255));
@@ -200,7 +220,8 @@ h4.MuiTypography-root {
 
 @media screen and (min-width: 401px){
   .aboutGradient {
-    background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%), url(./assets/images/animatedPhoto.jpg) !important;
+    /* background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%) !important; */
+    background-color: rgb(21, 20, 21);
     color: white;
     height: 100vh;
     background-size: cover;
@@ -212,7 +233,8 @@ h4.MuiTypography-root {
 
 @media screen and (max-width: 400px){
   .aboutGradient {
-    background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%), url(./assets/images/animatedPhoto.jpg) !important;
+    /* background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%) !important; */
+    background-color: rgb(21, 20, 21);
     color: white;
     background-size: cover;
     background-position: 50% 20%;
@@ -222,7 +244,8 @@ h4.MuiTypography-root {
   }
 
   .aboutDiv {
-    background-color: rgba(27, 27, 27, 0.7);
+    /* background-color: rgba(27, 27, 27, 0.7); */
+    background-color: rgb(31, 30, 31);
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -450,7 +473,8 @@ h4.MuiTypography-root {
   }
 
   .aboutDiv {
-    background-color: rgba(27, 27, 27, 0.7);
+    /* background-color: rgba(27, 27, 27, 0.7); */
+    background-color: rgb(31, 30, 31);
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
@@ -533,7 +557,8 @@ h4.MuiTypography-root {
 
 @media screen and (min-width: 601px) and (max-width: 900px){
   .aboutDiv {
-    background-color: rgba(27, 27, 27, 0.7);
+    /* background-color: rgba(27, 27, 27, 0.7); */
+    background-color: rgb(31, 30, 31);
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
@@ -562,7 +587,8 @@ h4.MuiTypography-root {
 
 @media screen and (min-width: 901px) and (max-width: 1200px){
   .aboutDiv {
-    background-color: rgba(27, 27, 27, 0.7);
+    /* background-color: rgba(27, 27, 27, 0.7); */
+    background-color: rgb(31, 30, 31);
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
@@ -1041,13 +1067,11 @@ h4.MuiTypography-root {
   }
 
   .aboutDiv {
-    background-color: rgba(27, 27, 27, 0.7);
-    width: 60vw;
+    /* background-color: rgba(27, 27, 27); */
+    background-color: rgb(31, 30, 31);
+    width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: 17%;
-    left: 5%;
     padding: 3%;
     border-radius: 10px;
     display: flex;

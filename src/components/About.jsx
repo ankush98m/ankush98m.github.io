@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navbar from './Navbar';
 import { Button, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid';
@@ -19,10 +19,54 @@ import Footer from './Footer';
 import { red } from '@mui/material/colors';
 
 function About() {
+    useEffect(() => {
+            // const elements = document.getElementsByClassName('expCard');
+            const heading = document.getElementsByClassName('aboutHeading');
+    
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('expAnimation');
+                    } else {
+                        entry.target.classList.remove('expAnimation');
+                    }
+                });
+            });
+    
+            const observer2 = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('headAnimation');
+                    } else {
+                        entry.target.classList.remove('headAnimation');
+                    }
+                });
+            });
+    
+            // Loop through elements and observe each one
+            // Array.from(elements).forEach(element => {
+            //     observer.observe(element);
+            // });
+    
+            Array.from(heading).forEach(element => {
+                observer2.observe(element);
+            });
+    
+            // Cleanup observer when component unmounts
+            return () => {
+                // Array.from(elements).forEach(element => {
+                //     observer.unobserve(element);
+                // });
+    
+                Array.from(heading).forEach(element => {
+                    observer2.unobserve(element);
+                });
+            };
+        }, []);
     return (
         <>
             <div className='aboutGradient'>
-                <Navbar />
+                <Typography variant='h2' className='aboutHeading'>About Me</Typography>
                 <div className='aboutDiv'>
                     <div className='aboutLeft'>
                         {/* <img src={photo1} alt="Ankush Maheshwari" />
@@ -71,7 +115,6 @@ function About() {
 
                 </div>
             </div>
-            <Footer />
         </>
     )
 }
