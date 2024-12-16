@@ -16,9 +16,10 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import {Link} from 'react-router-dom';
 import Photo from "../assets/images/profilePic.jpeg"
+import { Link as ScrollLink } from 'react-scroll';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About'];
+const navItems = ['Home', 'About', 'Projects', 'Experience', 'Contact'];
 
 function Navbar(props) {
     const { window } = props;
@@ -47,13 +48,18 @@ function Navbar(props) {
 
     return (
        
-        <div className='topNav'>
-            <Link to="/" >Home</Link>
-            
-                <Link to="/About" >About Me</Link>
-                
-            
-            <img src={Photo} height="40px" width="40px" className='profilePic' />
+        <div className="topNav">
+            {navItems.map((item) => (
+                <ScrollLink
+                    key={item}
+                    to={item.toLowerCase()} 
+                    smooth={true}
+                    duration={500}
+                    offset={-70} 
+                >
+                    <Button>{item}</Button>
+                </ScrollLink>
+            ))}
         </div>
     );
 }

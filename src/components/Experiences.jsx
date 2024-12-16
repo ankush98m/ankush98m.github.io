@@ -95,7 +95,7 @@ function Experiences() {
     }, []);
 
     return (
-        <>
+        <div id="experience">
             <div className='expDiv'>
                 <Typography variant='h2'
                     className='expHeading'
@@ -169,7 +169,7 @@ function Experiences() {
 
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

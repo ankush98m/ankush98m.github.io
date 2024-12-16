@@ -138,7 +138,7 @@ function Projects() {
 
 
     return (
-        <>
+        <div id="projects">
             <div style={{
                 paddingTop: '5%',
                 backgroundColor: '#1F1E1F'
@@ -267,7 +267,7 @@ function Projects() {
                     }
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

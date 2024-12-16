@@ -64,7 +64,7 @@ function About() {
             };
         }, []);
     return (
-        <>
+        <div id="about">
             <div className='aboutGradient'>
                 <Typography variant='h2' className='aboutHeading'>About Me</Typography>
                 <div className='aboutDiv'>
@@ -115,7 +115,7 @@ function About() {
 
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
