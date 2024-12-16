@@ -57,7 +57,7 @@ function Navbar(props) {
                     duration={500}
                     offset={-70} 
                 >
-                    <Button>{item}</Button>
+                    <Button className='navBtns'>{item}</Button>
                 </ScrollLink>
             ))}
         </div>

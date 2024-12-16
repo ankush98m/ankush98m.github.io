@@ -61,14 +61,17 @@ body {
 }
 
 .topNav {
-  float: right;
-  margin-right: 1%;
-  margin-top: 1%;
+  padding-top: 2%;
 
   a {
     color: #F7F0F0;
     text-decoration: none;
     padding: 10px;
+  }
+
+  .navBtns{
+    color: #F7F0F0;
+    padding: 0% 2%;
   }
 }
 
