@@ -247,7 +247,7 @@ h4.MuiTypography-root {
     background-position: 50% 20%;
     background-repeat: no-repeat;
     object-fit: cover;
-    padding-bottom: 10%;
+    padding-bottom: 50%;
   }
 
   .aboutDiv {
@@ -260,6 +260,10 @@ h4.MuiTypography-root {
     top: 100px !important;
     padding: 3%;
     border-radius: 10px;
+  }
+
+  .aboutHeading{
+    padding-top: 10%;
   }
 
   .collaborateDiv {
@@ -288,8 +292,11 @@ h4.MuiTypography-root {
 }
 
 @media screen and (max-width: 600px) {
+  .aboutHeading{
+    padding-top: 15%;
+  }
   .coverHeading {
-    top: 20%;
+    top: 8%;
     text-align: left;
     margin-left: 7% !important;
     span{
@@ -300,7 +307,7 @@ h4.MuiTypography-root {
   .coverList{
     color: #1b1b1b;
     position: relative;
-    top: 22%;
+    top: 8%;
     left: 7%;
   }
 
@@ -354,8 +361,8 @@ h4.MuiTypography-root {
   }
 
   .projHeading {
-    padding-top: 10%;
-    height: 20vh;
+    padding-top: 15%;
+    height: 15vh;
   }
 
   .projectCard-left {
@@ -639,9 +646,9 @@ h4.MuiTypography-root {
 
 @media screen and (min-width: 601px) and (max-width: 1199px){
   .coverHeading {
-    top: 20%;
+    top: 15%;
     text-align: left;
-    margin-left: 7% !important;
+    margin-left: 5% !important;
     span{
       font-size: 58px !important;
     }
@@ -650,7 +657,7 @@ h4.MuiTypography-root {
   .coverList{
     color: #1b1b1b;
     position: relative;
-    top: 22%;
+    top: 15%;
     left: 7%;
   }
 
@@ -660,7 +667,7 @@ h4.MuiTypography-root {
 
   #webList {
     position: relative;
-    padding: 3%;
+    padding: 1%;
   }
 
   #webList span {
@@ -675,7 +682,7 @@ h4.MuiTypography-root {
 
   #softwareList {
     position: relative;
-    margin-left: 2.9%;
+    padding: 1%;
   }
 
   #softwareList span {
@@ -690,7 +697,7 @@ h4.MuiTypography-root {
 
   #learningList {
     position: relative;
-    margin-left: 2.9%;
+    padding: 1%;
   }
 
   #learningList span {
