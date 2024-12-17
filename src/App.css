@@ -221,6 +221,10 @@ h4.MuiTypography-root {
   display: block !important;
 }
 
+.coverPhoto{
+  border-radius: 50%;
+}
+
 @media screen and (min-width: 401px){
   .aboutGradient {
     /* background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%) !important; */
@@ -325,6 +329,21 @@ h4.MuiTypography-root {
   }
 
   #softwareList span {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    animation: flip 2.9s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+
+  #learningList {
+    position: relative;
+    padding: 3%;
+  }
+
+  #learningList span {
     position: relative;
     display: inline-block;
     font-size: 24px;
@@ -669,6 +688,21 @@ h4.MuiTypography-root {
     animation-delay: calc(.2s * var(--i))
   }
 
+  #learningList {
+    position: relative;
+    margin-left: 2.9%;
+  }
+
+  #learningList span {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    animation: flip 2.9s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+
   .projHeading {
     padding-top: 8%;
     height: 20vh;
@@ -866,18 +900,17 @@ h4.MuiTypography-root {
 
 @media screen and (min-width: 1200px) and (max-width: 1800px) {
   .coverHeading {
-    top: 25%;
+    top: 15%;
     span{
       font-size: 72px !important;
     }
   }
 
   .coverList {
-    display: flex;
     color: #1b1b1b;
     position: relative;
-    top: 25%;
-    left: 20%;
+    top: 16%;
+    left: 25%;
   }
 
   .circle-icon{
@@ -885,12 +918,13 @@ h4.MuiTypography-root {
   }
 
   #webDiv{
-    width: 280px;
+    width: 340px;
   }
 
   #webList {
     position: relative;
     padding: 3%;
+    display: block;
   }
 
   #webList span {
@@ -899,7 +933,7 @@ h4.MuiTypography-root {
     font-size: 28px;
     color: #1b1b1b;
     text-transform: uppercase;
-    animation: flip 2.9s infinite;
+    animation: flip 4.1s infinite;
     animation-delay: calc(.2s * var(--i))
   }
 
@@ -911,7 +945,6 @@ h4.MuiTypography-root {
   #softwareList {
     position: relative;
     padding: 3%;
-    bottom: 4px;
   }
 
   #softwareList span {
@@ -920,14 +953,32 @@ h4.MuiTypography-root {
     font-size: 28px;
     color: #1b1b1b;
     text-transform: uppercase;
-    animation: flip 2.9s infinite;
+    animation: flip 4.1s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+
+  #learningDiv{
+    width: 450px;
+  }
+
+  #learningList {
+    position: relative;
+    padding: 3%;
+  }
+
+  #learningList span {
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    animation: flip 4.1s infinite;
     animation-delay: calc(.2s * var(--i))
   }
 
   .projHeading {
     height: 15vh;
   }
-
 
   .projectCard-left {
     margin-top: 2%;
@@ -1147,7 +1198,7 @@ h4.MuiTypography-root {
 
 @media screen and (min-width: 1801px){
   .coverHeading {
-    top: 25%;
+    top: 15%;
     font-size: 4em !important;
     span{
       font-size: 98px !important;
@@ -1155,7 +1206,6 @@ h4.MuiTypography-root {
   }
 
   .coverList {
-    display: flex;
     color: #1b1b1b;
     position: relative;
     top: 25%;
@@ -1187,6 +1237,7 @@ h4.MuiTypography-root {
 
   #softwareDiv{
     width: 420px
+
   }
 
   #softwareList {
@@ -1196,6 +1247,26 @@ h4.MuiTypography-root {
   }
 
   #softwareList span {
+    position: relative;
+    display: inline-block;
+    font-size: 32px;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    animation: flip 2.9s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+
+  #learningDiv{
+    width: 340px;
+  }
+
+  #leanringList {
+    position: relative;
+    padding: 3%;
+    display: block;
+  }
+
+  #leanringList span {
     position: relative;
     display: inline-block;
     font-size: 32px;
