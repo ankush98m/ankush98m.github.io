@@ -230,11 +230,11 @@ h4.MuiTypography-root {
     /* background-image: linear-gradient(to right, rgba(27, 27, 27, 0.7) 0%, rgba(27, 27, 27, 0.9) 100%) !important; */
     background-color: rgb(21, 20, 21);
     color: white;
-    height: 100vh;
     background-size: cover;
     background-position: 50% 20%;
     background-repeat: no-repeat;
     object-fit: cover;
+    padding-bottom: 7%;
   }
 }
 
@@ -247,7 +247,7 @@ h4.MuiTypography-root {
     background-position: 50% 20%;
     background-repeat: no-repeat;
     object-fit: cover;
-    height: 850px;
+    padding-bottom: 10%;
   }
 
   .aboutDiv {

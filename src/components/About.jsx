@@ -10,7 +10,7 @@ import Grid from "@mui/material/Grid";
 import Python from "../assets/images/python.svg";
 import js from "../assets/images/javascript.svg";
 import Java from "../assets/images/Java.svg"
-// import Postgres from "../assets/images/Postgresql.svg"
+import Postgres from "../assets/images/Postgresql.svg"
 import reactNative from "../assets/images/react-native.png"
 import react from "../assets/images/react.svg";
 import redux from "../assets/images/redux.svg";
@@ -122,43 +122,43 @@ function About() {
               columnSpacing={{ xs: 1, sm: 2, md: 3 }}
             >
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={js} alt="Javascript" className="skill-img" />
+                <img src={js} alt="Javascript" className="skill-img" title="JavaScript"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={Python} alt="Python" className="skill-img" />
+                <img src={Python} alt="Python" className="skill-img" title="Python"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={react} alt="Reactjs" className="skill-img" />
+                <img src={react} alt="Reactjs" className="skill-img" title="React"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={reactNative} alt="React-Native" className="skill-img" />
+                <img src={reactNative} alt="React-Native" className="skill-img" title="React-Native"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={redux} alt="Redux" className="skill-img" />
+                <img src={redux} alt="Redux" className="skill-img" title="Redux"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={Java} alt="Java" className="skill-img" />
+                <img src={Java} alt="Java" className="skill-img" title="Java"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={mongo} alt="MongoDB" className="skill-img" />
-              </Grid>
-              {/* <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={Postgres} alt="Postgres" className="skill-img" />
-              </Grid> */}
-              <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={express} alt="Expressjs" className="skill-img" />
+                <img src={mongo} alt="MongoDB" className="skill-img" title="MongoDB"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={node} alt="Nodejs" className="skill-img" />
+                <img src={Postgres} alt="Postgres" className="skill-img" title="Postgres"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={aws} alt="AWS" className="skill-img" />
+                <img src={express} alt="Expressjs" className="skill-img" title="Express"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={html5} alt="HTML" className="skill-img" />
+                <img src={node} alt="Nodejs" className="skill-img" title="NodeJS"/>
               </Grid>
               <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
-                <img src={css3} alt="HTML" className="skill-img" />
+                <img src={aws} alt="AWS" className="skill-img" title="AWS"/>
+              </Grid>
+              <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
+                <img src={html5} alt="HTML" className="skill-img" title="HTML5"/>
+              </Grid>
+              <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
+                <img src={css3} alt="HTML" className="skill-img" title="CSS3"/>
               </Grid>
             </Grid>
           </div>
