@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8af640c.css",
-    "main.js": "/static/js/main.0fe47c06.js",
+    "main.css": "/static/css/main.9c24c93a.css",
+    "main.js": "/static/js/main.fb771b14.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/codonBiotech.PNG": "/static/media/codonBiotech.125751f0b6626a7da405.PNG",
     "static/media/expBG3.jpg": "/static/media/expBG3.0172d1898fa4de6dc10c.jpg",
@@ -9,9 +9,7 @@
     "static/media/spendCubes.PNG": "/static/media/spendCubes.606437916c6ba9e358f7.PNG",
     "static/media/terranode.png": "/static/media/terranode.6e0084c0cd2c256a2861.png",
     "static/media/ARApp.png": "/static/media/ARApp.481a02bfe51bfbc4b1af.png",
-    "static/media/coverPhoto2.jpeg": "/static/media/coverPhoto2.b614195a1737c0d462ff.jpeg",
     "static/media/ankush_photo.jpg": "/static/media/ankush_photo.2d9d09b6a78b4d10a792.jpg",
-    "static/media/profilePic.jpeg": "/static/media/profilePic.78f8b782b93a249171a8.jpeg",
     "static/media/infosys.jpg": "/static/media/infosys.574ffd27c0fd18453b1e.jpg",
     "static/media/harmonyHub3.PNG": "/static/media/harmonyHub3.1e40fcf49a9d47aa02b7.PNG",
     "static/media/checkmateChallenge.jpg": "/static/media/checkmateChallenge.3288870fee67f10b59a6.jpg",
@@ -25,19 +23,18 @@
     "static/media/react.svg": "/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
     "static/media/Java.svg": "/static/media/Java.8ee5f9813e1ebcd16f2a36152b8dc856.svg",
     "static/media/html5.svg": "/static/media/html5.eba3e919a9c1f2e4582f908e79d6f213.svg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/css-3.svg": "/static/media/css-3.f1823d8606e24164d5ac03b4e9b80d85.svg",
     "static/media/python.svg": "/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
     "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/javascript.svg": "/static/media/javascript.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "index.html": "/index.html",
-    "main.f8af640c.css.map": "/static/css/main.f8af640c.css.map",
-    "main.0fe47c06.js.map": "/static/js/main.0fe47c06.js.map",
+    "main.9c24c93a.css.map": "/static/css/main.9c24c93a.css.map",
+    "main.fb771b14.js.map": "/static/js/main.fb771b14.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8af640c.css",
-    "static/js/main.0fe47c06.js"
+    "static/css/main.9c24c93a.css",
+    "static/js/main.fb771b14.js"
   ]
 }
