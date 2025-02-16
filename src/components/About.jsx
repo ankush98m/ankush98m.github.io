@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Navbar from "./Navbar";
 import { Button, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 // import Collage from "../assets/images/collage1.jpg"
@@ -22,6 +21,7 @@ import html5 from "../assets/images/html5.svg"
 import css3 from "../assets/images/css-3.svg"
 import Footer from "./Footer";
 import { red } from "@mui/material/colors";
+import NavbarBottom from "./NavbarBottom";
 
 function About() {
   useEffect(() => {
@@ -165,7 +165,9 @@ function About() {
         </div>
         <div className="aboutEmptyDiv"></div>
       </div>
+      {/* <NavbarBottom /> */}
     </div>
+    
   );
 }
 

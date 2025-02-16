@@ -1,7 +1,7 @@
 import React from "react";
 // import CoverImage from "../assets/images/coverPhoto2.jpeg"
 
-import { Typography } from "@mui/material";
+import { Typography, Avatar, Box } from "@mui/material";
 // import List from '@mui/material/List';
 // import ListItemText from '@mui/material/ListItemText';
 import { useScroll, motion } from "framer-motion";
@@ -12,12 +12,13 @@ import Projects from "./Projects";
 import Experiences from "./Experiences";
 import Footer from "./Footer";
 import ankushPhoto from "../assets/images/ankush_photo.jpg";
+import NavbarBottom from "./NavbarBottom";
 
 function Home() {
   const { scrollYProgress } = useScroll();
 
   return (
-    <div style={{ overflowX: "hidden" }}>
+    <div id="home" style={{ overflowX: "hidden" }}>
       <motion.div
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
@@ -47,13 +48,31 @@ function Home() {
           </Typography>
           <div className="coverList">
             {/* <img src={ankushPhoto} alt="" className="coverPhoto" width="200px" /> */}
+            <Box
+              sx={{
+                width: "200px",
+                // height: "200px",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+            >
+              <Avatar
+                src={ankushPhoto}
+                alt={ankushPhoto}
+                sx={{
+                  width: "100%",
+                  height: "100%",
+                }}
+              />
+            </Box>
+            <div className="coverListItems">
             <span id="webDiv" style={{ display: "flex" }}>
-              <CircleIcon
+              {/* <CircleIcon
                 className="circle-icon"
                 sx={{ position: "relative" }}
-              />
+              /> */}
               <div id="webList">
-                <span style={{ "--i": 1 }}>W</span>
+                {/* <span style={{ "--i": 1 }}>W</span>
                 <span style={{ "--i": 2 }}>E</span>
                 <span style={{ "--i": 3 }}>B</span>
                 <span>&nbsp;</span>
@@ -71,16 +90,17 @@ function Home() {
                 <span style={{ "--i": 13 }}>O</span>
                 <span style={{ "--i": 14 }}>P</span>
                 <span style={{ "--i": 15 }}>E</span>
-                <span style={{ "--i": 16 }}>R</span>
+                <span style={{ "--i": 16 }}>R</span> */}
+                Web Developer
               </div>
             </span>
             <span id="softwareDiv" style={{ display: "flex" }}>
-              <CircleIcon
+              {/* <CircleIcon
                 className="circle-icon"
                 sx={{ position: "relative" }}
-              />
+              /> */}
               <div id="softwareList">
-                <span style={{ "--i": 1 }}>S</span>
+                {/* <span style={{ "--i": 1 }}>S</span>
                 <span style={{ "--i": 2 }}>O</span>
                 <span style={{ "--i": 3 }}>F</span>
                 <span style={{ "--i": 4 }}>T</span>
@@ -97,16 +117,17 @@ function Home() {
                 <span style={{ "--i": 14 }}>O</span>
                 <span style={{ "--i": 15 }}>P</span>
                 <span style={{ "--i": 16 }}>E</span>
-                <span style={{ "--i": 17 }}>R</span>
+                <span style={{ "--i": 17 }}>R</span> */}
+                App Developer
               </div>
             </span>
             <span id="learningDiv" style={{ display: "flex" }}>
-              <CircleIcon
+              {/* <CircleIcon
                 className="circle-icon"
                 sx={{ position: "relative" }}
-              />
+              /> */}
               <div id="learningList">
-                <span style={{ "--i": 1 }}>D</span>
+                {/* <span style={{ "--i": 1 }}>D</span>
                 <span style={{ "--i": 2 }}>E</span>
                 <span style={{ "--i": 3 }}>E</span>
                 <span style={{ "--i": 4 }}>P</span>
@@ -129,12 +150,20 @@ function Home() {
                 <span style={{ "--i": 19 }}>I</span>
                 <span style={{ "--i": 20 }}>A</span>
                 <span style={{ "--i": 21 }}>S</span>
-                <span style={{ "--i": 22 }}>T</span>
+                <span style={{ "--i": 22 }}>T</span> */}
+                Deep Learning Enthusiast
               </div>
             </span>
+            </div>
           </div>
+          <Typography className ="coverSubHeading" variant="h5"
+            style={{
+              
+            }}>Turning ideas into reality with code, creativity, and machine intelligence.</Typography>
         </div>
+        
       </div>
+      <NavbarBottom />
       <About />
       <Projects />
       <Experiences />

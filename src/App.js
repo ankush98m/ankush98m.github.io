@@ -1,19 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./components/Home";
-import About from "./components/About"
+import NavbarBottom from "./components/NavbarBottom";
 
 function App() {
   return (
+    <Router>
+      <MainContent />
+    </Router>
+  );
+}
+
+function MainContent() {
+  const location = useLocation();
+
+  return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/About" element={<About />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+
+      {/* Show NavbarBottom on all pages except Home */}
+      {location.pathname !== "/" && location.pathname !== "/Home" && <NavbarBottom />}
     </div>
   );
 }

@@ -47,7 +47,7 @@ function Projects() {
             title: 'Spend Cubes',
             descrption: 'A responsive website for a startup that manages and helps to audit their telecommunication and wifi bills. Professionals at Spend Cubes bring together decades of experience and expertise in telecom lifecycle management, refunds and recovery.',
             image: spendCubes,
-            technology: ['Javascript', 'React', 'HTML5', 'CSS3'],
+            technology: ['Javascript', 'React', 'HTML5', 'CSS3', 'Google Analytics', 'Vercel'],
             github: 'https://github.com/ankush98m/Spend_Cubes',
             link: 'https://spendcubes.com/'
         },
@@ -55,7 +55,7 @@ function Projects() {
             title: 'Codon Biotech',
             descrption: 'Responsive Landing Page for Codon Biotech. Codon Biotech Pvt. Ltd. (CBPL) is a company incorporated v/s section 75 of Companies Act, 1956. It was established in 2007 with an aim to encourage Biotechnology related research, product development and Skill development which would lead to bridging the gap between Academics & Industry.',
             image: CodonBiotech,
-            technology: ['Javascript', 'React', 'HTML5', 'CSS3'],
+            technology: ['Javascript', 'React', 'HTML5', 'CSS3', 'Vercel'],
             github: 'https://github.com/ankush98m/Spend_Cubes',
             link: 'https://codonbiotech.vercel.app/'
         },
