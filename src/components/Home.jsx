@@ -13,6 +13,7 @@ import Experiences from "./Experiences";
 import Footer from "./Footer";
 import ankushPhoto from "../assets/images/ankush_photo.jpg";
 import NavbarBottom from "./NavbarBottom";
+import Recommendations from "./Recommendations";
 
 function Home() {
   const { scrollYProgress } = useScroll();
@@ -167,6 +168,7 @@ function Home() {
       <About />
       <Projects />
       <Experiences />
+      <Recommendations/>
       <Footer />
     </div>
   );

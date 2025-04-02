@@ -12,7 +12,7 @@ function App() {
 }
 
 function MainContent() {
-  const location = useLocation();
+  // const location = useLocation();
 
   return (
     <div className="App">
@@ -21,7 +21,7 @@ function MainContent() {
       </Routes>
 
       {/* Show NavbarBottom on all pages except Home */}
-      {location.pathname !== "/" && location.pathname !== "/Home" && <NavbarBottom />}
+      {/* {location.pathname !== "/" && location.pathname !== "/Home" && <NavbarBottom />} */}
     </div>
   );
 }
