@@ -28,23 +28,11 @@ function About() {
     // const elements = document.getElementsByClassName('expCard');
     const heading = document.getElementsByClassName("aboutHeading");
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("expAnimation");
-        } else {
-          entry.target.classList.remove("expAnimation");
-        }
-      });
-    });
-
     const observer2 = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("headAnimation");
-        } else {
-          entry.target.classList.remove("headAnimation");
-        }
+        } 
       });
     });
 

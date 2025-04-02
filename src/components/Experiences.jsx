@@ -54,8 +54,6 @@ function Experiences() {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('expAnimation');
-                } else {
-                    entry.target.classList.remove('expAnimation');
                 }
             });
         });
@@ -64,8 +62,6 @@ function Experiences() {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('headAnimation');
-                } else {
-                    entry.target.classList.remove('headAnimation');
                 }
             });
         });

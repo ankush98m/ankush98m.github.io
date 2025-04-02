@@ -81,9 +81,8 @@ function Projects() {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('projAnimation');
-                } else {
-                    entry.target.classList.remove('projAnimation');
-                }
+                } 
+                
             });
         });
 
@@ -91,9 +90,7 @@ function Projects() {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('projAnimation');
-                } else {
-                    entry.target.classList.remove('projAnimation');
-                }
+                } 
             });
         });
 
@@ -101,9 +98,7 @@ function Projects() {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('headAnimation');
-                } else {
-                    entry.target.classList.remove('headAnimation');
-                }
+                } 
             });
         });
 
