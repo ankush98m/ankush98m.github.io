@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c24c93a.css",
-    "main.js": "/static/js/main.fb771b14.js",
+    "main.css": "/static/css/main.3456ed61.css",
+    "main.js": "/static/js/main.9f95c610.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/codonBiotech.PNG": "/static/media/codonBiotech.125751f0b6626a7da405.PNG",
     "static/media/expBG3.jpg": "/static/media/expBG3.0172d1898fa4de6dc10c.jpg",
@@ -29,12 +29,12 @@
     "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "static/media/javascript.svg": "/static/media/javascript.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "index.html": "/index.html",
-    "main.9c24c93a.css.map": "/static/css/main.9c24c93a.css.map",
-    "main.fb771b14.js.map": "/static/js/main.fb771b14.js.map",
+    "main.3456ed61.css.map": "/static/css/main.3456ed61.css.map",
+    "main.9f95c610.js.map": "/static/js/main.9f95c610.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c24c93a.css",
-    "static/js/main.fb771b14.js"
+    "static/css/main.3456ed61.css",
+    "static/js/main.9f95c610.js"
   ]
 }
